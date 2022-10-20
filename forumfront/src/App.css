@@ -1,0 +1,104 @@
+
+.general .Box1 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-start;
+  margin: auto;
+  min-height:97vh;
+  width: 30%;
+  background-color: #89c2d1;
+  border: 3px solid #c5c5d7;
+  margin: 10px auto;
+}
+
+.Box2 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  min-height:97vh ;
+  width: 68%;
+  background-color: #89c2d1;
+  border: 3px solid #c5c5d7;
+  margin-left: 10px;
+  margin: 10px auto;
+  padding: 10px auto;
+  overflow: hidden;
+  overflow-y: scroll;
+  
+}
+
+.Box3 {
+  display: flex;
+  flex-direction: row;
+  height:90px;
+  width: 80%;
+  background-color: #d6d6e7;
+  border: 1px solid #000607;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin: 10px auto;
+  padding: 10px auto;
+
+}
+
+.img {
+
+  padding: 5px;
+  width: 50px;
+  margin-right:0;
+  margin-left: auto;
+  display:block;
+}
+
+.button {
+  height:30px;
+  width: 110px;
+  background-color: #d6d6e7;
+  border-radius: 6px;
+  border: 1px solid #000607;
+  margin: 10px auto;
+  padding: 10px auto;
+  
+}
+
+.textfield {
+  height:160px;
+  width: 300px;
+  background-color: #d6d6e7;
+  border-radius: 6px;
+  border: 1px solid #000607;
+  margin: 10px auto;
+  padding: 10px auto;
+  text-align: left;
+}
+
+
+
+.buttonContainer{
+
+  width: 50%;
+  background-color: #1a3c46;
+  margin: auto;
+
+
+}
+
+.general {
+  display: inline-flex;
+  flex-direction:column;
+  height:100vh;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
